@@ -1,17 +1,17 @@
-# react-native-wallet-connect
+# @implicit/react-native-wallet-connect
 
-react-native-wallet-connect
+@implicit/react-native-wallet-connect
 
 ## Installation
 
 ```sh
-npm install react-native-wallet-connect
+npm install @implicit/react-native-wallet-connect
 ```
 
 ## Usage
 
 ```js
-import { multiply } from "react-native-wallet-connect";
+import { multiply } from "@implicit/react-native-wallet-connect";
 
 // ...
 

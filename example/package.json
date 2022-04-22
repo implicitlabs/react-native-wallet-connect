@@ -1,6 +1,6 @@
 {
-  "name": "react-native-wallet-connect-example",
-  "description": "Example app for react-native-wallet-connect",
+  "name": "@implicit/react-native-wallet-connect-example",
+  "description": "Example app for @implicit/react-native-wallet-connect",
   "version": "0.0.1",
   "private": true,
   "scripts": {

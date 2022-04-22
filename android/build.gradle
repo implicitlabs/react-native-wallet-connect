@@ -19,10 +19,10 @@ def safeExtGet(prop, fallback) {
 }
 
 android {
-    compileSdkVersion safeExtGet('WalletConnect_compileSdkVersion', 29)
+    compileSdkVersion safeExtGet('ReactNativeWalletConnect_compileSdkVersion', 29)
     defaultConfig {
-        minSdkVersion safeExtGet('WalletConnect_minSdkVersion', 16)
-        targetSdkVersion safeExtGet('WalletConnect_targetSdkVersion', 29)
+        minSdkVersion safeExtGet('ReactNativeWalletConnect_minSdkVersion', 16)
+        targetSdkVersion safeExtGet('ReactNativeWalletConnect_targetSdkVersion', 29)
         versionCode 1
         versionName "1.0"
 

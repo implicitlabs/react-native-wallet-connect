@@ -1,5 +1,5 @@
-@objc(WalletConnect)
-class WalletConnect: NSObject {
+@objc(ReactNativeWalletConnect)
+class ReactNativeWalletConnect: NSObject {
 
     @objc(multiply:withB:withResolver:withRejecter:)
     func multiply(a: Float, b: Float, resolve:RCTPromiseResolveBlock,reject:RCTPromiseRejectBlock) -> Void {

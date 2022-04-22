@@ -1,6 +1,6 @@
-rootProject.name = 'WalletConnectExample'
+rootProject.name = 'ReactNativeWalletConnectExample'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
 
-include ':reactnativewalletconnect'
-project(':reactnativewalletconnect').projectDir = new File(rootProject.projectDir, '../../android')
+include ':implicitreactnativewalletconnect'
+project(':implicitreactnativewalletconnect').projectDir = new File(rootProject.projectDir, '../../android')

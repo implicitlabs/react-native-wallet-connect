@@ -1,4 +1,4 @@
-package com.reactnativewalletconnect;
+package com.implicitreactnativewalletconnect;
 
 import androidx.annotation.NonNull;
 
@@ -8,11 +8,11 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.module.annotations.ReactModule;
 
-@ReactModule(name = WalletConnectModule.NAME)
-public class WalletConnectModule extends ReactContextBaseJavaModule {
-    public static final String NAME = "WalletConnect";
+@ReactModule(name = ReactNativeWalletConnectModule.NAME)
+public class ReactNativeWalletConnectModule extends ReactContextBaseJavaModule {
+    public static final String NAME = "ReactNativeWalletConnect";
 
-    public WalletConnectModule(ReactApplicationContext reactContext) {
+    public ReactNativeWalletConnectModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 
