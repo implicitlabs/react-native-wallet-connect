@@ -17,6 +17,6 @@ const ReactNativeWalletConnect = NativeModules.ReactNativeWalletConnect
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return ReactNativeWalletConnect.multiply(a, b);
+export const connectToMetamask = () => {
+  ReactNativeWalletConnect.connectToMetamask();
 }

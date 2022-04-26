@@ -1,27 +1,13 @@
-# @implicit/react-native-wallet-connect
+# ReactNativeWalletConnect SDK
 
-@implicit/react-native-wallet-connect
+## Getting started
 
-## Installation
+`$ yarn add @implicit/react-native-wallet-connect@https://github.com/implicitlabs/react-native-wallet-connect`
 
-```sh
-npm install @implicit/react-native-wallet-connect
-```
+#### IOS
+
+`$ cd ios && pod install`
 
 ## Usage
-
-```js
-import { multiply } from "@implicit/react-native-wallet-connect";
-
-// ...
-
-const result = await multiply(3, 7);
-```
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
+```javascript
+import ReactNativeWalletConnect from '@implicit/react-native-wallet-connect';
