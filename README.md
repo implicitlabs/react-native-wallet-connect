@@ -1,4 +1,4 @@
-# ReactNativeWalletConnect SDK
+# ReactNativeWalletConnect
 
 ## Getting started
 
